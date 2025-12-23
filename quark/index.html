@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>
+      夸克浏览器好用吗？极速、极简、AI 搜索体验与常见问题解答
+    </title>
+    <meta
+      name="description"
+      content="夸克浏览器好用吗？本页从实际体验出发，介绍夸克浏览器的极速启动、极简界面、广告拦截、隐私保护与 AI 搜索等特点，并解答“夸克浏览器安全吗”“是否有广告”“适合哪些人群”等常见问题，帮助你判断是否值得长期使用。"
+    />
+    <meta
+      name="keywords"
+      content="夸克浏览器,夸克浏览器好用吗,夸克浏览器安全吗,夸克浏览器广告,夸克浏览器下载,夸克浏览器体验,Quark Browser"
+    />
+    <meta name="robots" content="index,follow" />
+
+    <!-- 以下 canonical 与 og:url 为示例地址，部署到正式域名后可根据需要调整 -->
+    <link
+      rel="canonical"
+      href="https://www.example.com/quark-browser-landing"
+    />
+
+    <!-- Open Graph / 社交分享 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta
+      property="og:title"
+      content="夸克浏览器好用吗？极速、极简、AI 搜索体验与常见问题解答"
+    />
+    <meta
+      property="og:description"
+      content="从真实使用体验出发，系统介绍夸克浏览器的优势与适用人群，并集中解答“好用吗”“安全性如何”“广告多不多”等常见疑问。"
+    />
+    <meta
+      property="og:url"
+      content="https://www.example.com/quark-browser-landing"
+    />
+
+    <!-- Twitter Card 简要信息 -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="夸克浏览器好用吗？极速、极简、AI 搜索体验与常见问题解答"
+    />
+    <meta
+      name="twitter:description"
+      content="了解夸克浏览器的核心体验、适合人群与常见问题解答，判断这款极简浏览器是否符合你的日常使用需求。"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- FAQ 结构化数据，提升谷歌/部分搜索结果的富摘要展现机会 -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "夸克浏览器主要适合哪些人群使用？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "夸克浏览器特别适合追求干净界面与高效搜索体验的用户，例如：需要大量查资料的学生、经常在移动端处理信息的职场人士、以及偏好极简设计与高信息密度的重度互联网用户。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "夸克浏览器是否支持广告拦截与隐私模式？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "夸克浏览器提供一定程度的广告拦截与隐私保护能力，包括无痕/隐私模式、部分广告过滤等功能。具体功能项与实现方式会随版本迭代更新，请以实际产品设置页面为准。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "夸克浏览器会收集我的个人隐私数据吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "通常，现代浏览器都会在法律法规允许的范围内，根据隐私政策收集必要的数据用于改进产品体验。建议你在安装与使用夸克浏览器前，详细阅读官方隐私政策与用户协议，并在设置中根据自身需求调整隐私选项。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "遇到闪退、卡顿或网页无法打开时应该怎么办？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "你可以尝试以下步骤：关闭并重新打开浏览器、清理缓存与历史记录、检查网络连接是否稳定、在应用商店更新到最新版本。如果问题仍然存在，建议通过夸克浏览器内的反馈入口或官方渠道提交问题说明。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "本页面是否为夸克浏览器官方页面？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "本落地页示例仅用于介绍夸克浏览器的典型特点与使用场景，不代表官方立场，也不提供任何非官方安装文件。若需获取权威信息，请以夸克浏览器官方产品页面和公告为准。"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- 顶部导航 -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <span class="logo-text" data-i18n="logo.text">夸克浏览器</span>
+        </div>
+        <div class="header-right">
+          <nav class="nav">
+            <a href="#features" data-i18n="nav.features">产品亮点</a>
+            <a href="#content" data-i18n="nav.scenarios">使用场景</a>
+            <a href="#download" data-i18n="nav.download">下载与安装</a>
+            <a href="#faq" data-i18n="nav.faq">常见问题</a>
+          </nav>
+          <a
+            href="https://www.quark.cn/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary header-cta"
+            data-i18n="hero.cta.header"
+            >立即下载</a
+          >
+          <div class="lang-switch">
+            <select id="langSelect" aria-label="Language switch">
+              <option value="zh">中</option>
+              <option value="en">EN</option>
+              <option value="ko">KO</option>
+              <option value="ja">日</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 首屏区域：标题与描述 -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 data-i18n="hero.title">夸克浏览器：为高效搜索而生的极简浏览器</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            舍弃一切冗余，只保留真实有用的信息。夸克浏览器以极简设计、极速内核与 AI
+            智能搜索能力，为你打造干净纯粹的上网体验。
+          </p>
+          <ul class="hero-bullets">
+            <li data-i18n="hero.bullet1">极速启动与加载，打开网页更快一步</li>
+            <li data-i18n="hero.bullet2">极简界面设计，信息密度高、干扰更少</li>
+            <li data-i18n="hero.bullet3">多重隐私保护与广告拦截，更安全更清爽</li>
+            <li data-i18n="hero.bullet4">智能搜索与内容聚合，更快找到有效答案</li>
+          </ul>
+          <div class="hero-actions">
+            <a
+              href="https://www.quark.cn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-primary"
+              data-i18n="hero.cta.main"
+              >免费下载夸克浏览器</a
+            >
+            <a
+              href="#features"
+              class="btn-secondary"
+              data-i18n="hero.cta.secondary"
+              >查看产品亮点</a
+            >
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="device-mockup">
+            <div class="device-bar"></div>
+            <div class="device-screen">
+              <div class="tab-row">
+                <span class="tab active" data-i18n="mock.tabs.search">夸克搜索</span>
+                <span class="tab" data-i18n="mock.tabs.ai">AI 助手</span>
+                <span class="tab" data-i18n="mock.tabs.bookmark">书签</span>
+              </div>
+              <div class="screen-content">
+                <div class="search-box">
+                  <span class="search-icon">Q</span>
+                  <span
+                    class="search-placeholder"
+                    data-i18n="mock.search.placeholder"
+                    >试试搜索「论文查重」</span
+                  >
+                </div>
+                <ul class="feature-list">
+                  <li data-i18n="mock.feature1">
+                    智能识别意图，聚合权威结果
+                  </li>
+                  <li data-i18n="mock.feature2">
+                    去广告阅读模式，专注核心内容
+                  </li>
+                  <li data-i18n="mock.feature3">
+                    一键保存网页，高效学习与信息整理
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="hero-note" data-i18n="hero.note">
+            * 页面为示意 UI，用于介绍夸克浏览器核心体验，具体功能以实际产品为准。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 侧边导航锚点（桌面端展示） -->
+    <aside class="side-toc">
+      <div class="side-toc-inner">
+        <span class="side-toc-title" data-i18n="side.title">页面导览</span>
+        <a href="#top" data-i18n="side.top">回到顶部</a>
+        <a href="#features" data-i18n="side.features">产品亮点</a>
+        <a href="#content" data-i18n="side.content">核心内容区</a>
+        <a href="#download" data-i18n="side.download">下载与安装</a>
+        <a href="#faq" data-i18n="side.faq">FAQ 常见问题</a>
+      </div>
+    </aside>
+
+    <!-- 主体内容区：产品亮点（供爬虫阅读的核心区域之一） -->
+    <main class="main-content">
+      <section class="section" id="features">
+        <div class="container">
+          <h2 data-i18n="section.features.title">为什么选择夸克浏览器？</h2>
+          <p
+            class="section-intro"
+            data-i18n="section.features.intro"
+          >
+            夸克浏览器主打「极简、高效、智能」，在保证浏览体验干净清爽的同时，为搜索与知识获取场景做了深入优化。这让它成为学生、职场人士以及重度信息工作者常用的主力浏览器之一。
+          </p>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3 data-i18n="features.card1.title">极简界面，专注内容</h3>
+              <p data-i18n="features.card1.body">
+                夸克去掉了复杂的按钮和花哨元素，只保留必要的信息与操作入口。搜索框、标签页、书签等元素布局紧凑、逻辑清晰，让你在最短时间内完成操作。
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3 data-i18n="features.card2.title">极速内核，流畅体验</h3>
+              <p data-i18n="features.card2.body">
+                通过轻量化设计与底层优化，夸克浏览器在启动速度、页面加载、滚动浏览等方面表现稳定顺滑，适合日常搜索、长时间阅读与在线学习。
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3 data-i18n="features.card3.title">智能搜索与 AI 能力</h3>
+              <p data-i18n="features.card3.body">
+                针对学术搜索、资料查找、工具类需求等场景，夸克提供智能联想、结果聚合、知识卡片等能力，帮助你在复杂的信息中快速找到关键答案。
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3 data-i18n="features.card4.title">隐私保护与广告拦截</h3>
+              <p data-i18n="features.card4.body">
+                支持无痕浏览、隐私模式、反追踪等功能，同时可对网页广告进行拦截，减少骚扰弹窗和恶意页面，保障上网安全。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 主体内容区：使用场景与结构化内容（SEO 友好） -->
+      <section class="section" id="content">
+        <div class="container">
+          <h2 data-i18n="section.scenarios.title">
+            典型使用场景：搜索、学习与高效浏览
+          </h2>
+          <p class="section-intro" data-i18n="section.scenarios.intro">
+            落地页的主体内容区是搜索引擎爬虫重点抓取的部分。在这里，我们通过清晰的标题层级与结构化段落，系统讲解夸克浏览器的实际使用价值与差异化优势。
+          </p>
+
+          <article class="content-block">
+            <h3 data-i18n="scenarios.student.title">
+              面向学生：查资料、看课程、更专注
+            </h3>
+            <p data-i18n="scenarios.student.body">
+              学生用户在使用夸克浏览器时，可以通过首页搜索框快速直达百科、论文、题库等权威资源。阅读模式可以自动提取正文内容，去除页面噪音，适合长时间阅读课程讲义与学习资料。
+            </p>
+            <ul>
+              <li data-i18n="scenarios.student.li1">
+                搜索「公式推导」「论文资料」等复杂问题时，智能结果聚合更高效。
+              </li>
+              <li data-i18n="scenarios.student.li2">
+                夜间模式与护眼模式降低长时间用眼疲劳。
+              </li>
+              <li data-i18n="scenarios.student.li3">
+                书签与收藏夹帮助你整理学习资料，形成个人知识库。
+              </li>
+            </ul>
+          </article>
+
+          <article class="content-block">
+            <h3 data-i18n="scenarios.professional.title">
+              面向职场人士：多任务、多窗口的高效工作台
+            </h3>
+            <p data-i18n="scenarios.professional.body">
+              对需要频繁切换网页、查文档、搜案例的职场人士来说，夸克浏览器简洁的标签管理与稳定的性能，能在不占用过多系统资源的前提下支撑多任务处理。
+            </p>
+            <ul>
+              <li data-i18n="scenarios.professional.li1">
+                通过多标签与分组管理不同项目的网页资源。
+              </li>
+              <li data-i18n="scenarios.professional.li2">
+                借助搜索引擎与工具聚合，快速找到报告模板、行业数据与新闻资讯。
+              </li>
+              <li data-i18n="scenarios.professional.li3">
+                隐私窗口适合登录不同账号或处理敏感工作内容。
+              </li>
+            </ul>
+          </article>
+
+          <article class="content-block">
+            <h3 data-i18n="scenarios.heavy.title">
+              面向重度浏览用户：更干净的上网环境
+            </h3>
+            <p data-i18n="scenarios.heavy.body">
+              如果你经常在移动端长时间浏览网页、论坛与内容平台，夸克浏览器的广告拦截与反骚扰能力，可以在不影响正常内容的前提下，尽可能屏蔽干扰元素，让页面更清爽。
+            </p>
+            <ul>
+              <li data-i18n="scenarios.heavy.li1">
+                智能识别弹窗广告与遮挡页面的广告位。
+              </li>
+              <li data-i18n="scenarios.heavy.li2">
+                支持对异常页面进行安全提醒，降低误点风险。
+              </li>
+              <li data-i18n="scenarios.heavy.li3">
+                通过个性化设置，平衡加载速度与图文展示质量。
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- 下载与安装 -->
+      <section class="section section-alt" id="download">
+        <div class="container">
+          <h2 data-i18n="section.download.title">如何获取并安装夸克浏览器？</h2>
+          <p class="section-intro" data-i18n="section.download.intro">
+            你可以根据自己的设备类型，通过应用商店或官方网站下载夸克浏览器。以下信息仅为通用说明，实际下载方式以夸克官方渠道为准。
+          </p>
+          <div class="download-grid">
+            <div class="download-card">
+              <h3 data-i18n="download.mobile.title">手机端（推荐）</h3>
+              <p data-i18n="download.mobile.body">
+                在常用应用商店中搜索「夸克浏览器」，选择来自官方发布的应用进行安装。
+              </p>
+              <ul>
+                <li data-i18n="download.mobile.li1">支持主流安卓应用商店</li>
+                <li data-i18n="download.mobile.li2">
+                  根据提示完成安装与权限授权
+                </li>
+              </ul>
+            </div>
+            <div class="download-card">
+              <h3 data-i18n="download.other.title">其他平台</h3>
+              <p data-i18n="download.other.body">
+                如需了解夸克浏览器在其他平台（如桌面端）的支持情况，可前往官方产品页面查看最新说明。
+              </p>
+              <p class="download-note" data-i18n="download.other.note">
+                * 本落地页仅作产品体验与特点介绍，不提供任何安装包下载，具体产品信息以官方公布为准。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ 常见问题 -->
+      <section class="section" id="faq">
+        <div class="container">
+          <h2 data-i18n="section.faq.title">FAQ：关于夸克浏览器的常见问题</h2>
+          <p class="section-intro" data-i18n="faq.intro">
+            以下问答旨在从安装、功能使用到隐私安全等几个方面，集中解答用户在选择与使用夸克浏览器时可能遇到的典型问题。
+          </p>
+          <div class="faq-list">
+            <details open>
+              <summary data-i18n="faq.q1">
+                夸克浏览器主要适合哪些人群使用？
+              </summary>
+              <p data-i18n="faq.a1">
+                夸克浏览器特别适合追求干净界面与高效搜索体验的用户，例如：需要大量查资料的学生、经常在移动端处理信息的职场人士、以及偏好极简设计与高信息密度的重度互联网用户。
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq.q2">
+                夸克浏览器是否支持广告拦截与隐私模式？
+              </summary>
+              <p data-i18n="faq.a2">
+                夸克浏览器提供一定程度的广告拦截与隐私保护能力，包括无痕/隐私模式、部分广告过滤等功能。具体功能项与实现方式会随版本迭代更新，请以实际产品设置页面为准。
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq.q3">
+                夸克浏览器会收集我的个人隐私数据吗？
+              </summary>
+              <p data-i18n="faq.a3">
+                通常，现代浏览器都会在法律法规允许的范围内，根据隐私政策收集必要的数据用于改进产品体验。建议你在安装与使用夸克浏览器前，详细阅读官方隐私政策与用户协议，并在设置中根据自身需求调整隐私选项。
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq.q4">
+                遇到闪退、卡顿或网页无法打开时应该怎么办？
+              </summary>
+              <p data-i18n="faq.a4">
+                你可以尝试以下步骤：关闭并重新打开浏览器、清理缓存与历史记录、检查网络连接是否稳定、在应用商店更新到最新版本。如果问题仍然存在，建议通过夸克浏览器内的反馈入口或官方渠道提交问题说明。
+              </p>
+            </details>
+            <details>
+              <summary data-i18n="faq.q5">
+                本页面是否为夸克浏览器官方页面？
+              </summary>
+              <p data-i18n="faq.a5">
+                本落地页示例仅用于介绍夸克浏览器的典型特点与使用场景，不代表官方立场，也不提供任何非官方安装文件。若需获取权威信息，请以夸克浏览器官方产品页面和公告为准。
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-text">
+          <p data-i18n="footer.line1">
+            本页面用于夸克浏览器产品体验介绍与内容展示，不属于官方站点。
+          </p>
+          <p data-i18n="footer.line2">
+            产品名称、Logo 等相关权益归其对应权利人所有。
+          </p>
+        </div>
+        <a href="#top" class="back-to-top" data-i18n="backToTop">返回顶部 ↑</a>
+      </div>
+    </footer>
+
+    <script>
+      // 简单返回顶部交互与锚点平滑滚动（便于用户浏览，也利于结构清晰）
+      (function () {
+        const links = document.querySelectorAll('a[href^="#"]');
+        links.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            const targetId = this.getAttribute("href");
+            if (!targetId || targetId === "#") return;
+            const target = document.querySelector(targetId);
+            if (target) {
+              e.preventDefault();
+              window.scrollTo({
+                top: target.offsetTop - 72,
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+      })();
+
+      // 多语言切换 & 浏览器语言自动识别
+      (function () {
+        const LANG_MAP = {
+          zh: "zh-CN",
+          en: "en",
+          ko: "ko",
+          ja: "ja",
+        };
+
+        const translations = {
+          zh: {
+            "nav.features": "产品亮点",
+            "nav.scenarios": "使用场景",
+            "nav.download": "下载与安装",
+            "nav.faq": "常见问题",
+            "hero.title": "夸克浏览器：为高效搜索而生的极简浏览器",
+            "hero.subtitle":
+              "舍弃一切冗余，只保留真实有用的信息。夸克浏览器以极简设计、极速内核与 AI 智能搜索能力，为你打造干净纯粹的上网体验。",
+            "hero.bullet1": "极速启动与加载，打开网页更快一步",
+            "hero.bullet2": "极简界面设计，信息密度高、干扰更少",
+            "hero.bullet3": "多重隐私保护与广告拦截，更安全更清爽",
+            "hero.bullet4": "智能搜索与内容聚合，更快找到有效答案",
+            "hero.cta.header": "立即下载",
+            "hero.cta.main": "免费下载夸克浏览器",
+            "hero.cta.secondary": "查看产品亮点",
+            "hero.note": "* 页面为示意 UI，用于介绍夸克浏览器核心体验，具体功能以实际产品为准。",
+            "logo.text": "夸克浏览器",
+            "mock.tabs.search": "夸克搜索",
+            "mock.tabs.ai": "AI 助手",
+            "mock.tabs.bookmark": "书签",
+            "mock.search.placeholder": "试试搜索「论文查重」",
+            "mock.feature1": "智能识别意图，聚合权威结果",
+            "mock.feature2": "去广告阅读模式，专注核心内容",
+            "mock.feature3": "一键保存网页，高效学习与信息整理",
+            "section.features.title": "为什么选择夸克浏览器？",
+            "section.features.intro":
+              "夸克浏览器主打「极简、高效、智能」，在保证浏览体验干净清爽的同时，为搜索与知识获取场景做了深入优化。这让它成为学生、职场人士以及重度信息工作者常用的主力浏览器之一。",
+            "features.card1.title": "极简界面，专注内容",
+            "features.card1.body":
+              "夸克去掉了复杂的按钮和花哨元素，只保留必要的信息与操作入口。搜索框、标签页、书签等元素布局紧凑、逻辑清晰，让你在最短时间内完成操作。",
+            "features.card2.title": "极速内核，流畅体验",
+            "features.card2.body":
+              "通过轻量化设计与底层优化，夸克浏览器在启动速度、页面加载、滚动浏览等方面表现稳定顺滑，适合日常搜索、长时间阅读与在线学习。",
+            "features.card3.title": "智能搜索与 AI 能力",
+            "features.card3.body":
+              "针对学术搜索、资料查找、工具类需求等场景，夸克提供智能联想、结果聚合、知识卡片等能力，帮助你在复杂的信息中快速找到关键答案。",
+            "features.card4.title": "隐私保护与广告拦截",
+            "features.card4.body":
+              "支持无痕浏览、隐私模式、反追踪等功能，同时可对网页广告进行拦截，减少骚扰弹窗和恶意页面，保障上网安全。",
+            "section.scenarios.title": "典型使用场景：搜索、学习与高效浏览",
+            "section.scenarios.intro":
+              "在这一部分，我们通过清晰的标题层级与结构化段落，系统讲解夸克浏览器在搜索、学习和日常浏览等场景中的实际使用价值与差异化优势。",
+            "scenarios.student.title": "面向学生：查资料、看课程、更专注",
+            "scenarios.student.body":
+              "学生用户在使用夸克浏览器时，可以通过首页搜索框快速直达百科、论文、题库等权威资源。阅读模式可以自动提取正文内容，去除页面噪音，适合长时间阅读课程讲义与学习资料。",
+            "scenarios.student.li1":
+              "搜索「公式推导」「论文资料」等复杂问题时，智能结果聚合更高效。",
+            "scenarios.student.li2": "夜间模式与护眼模式降低长时间用眼疲劳。",
+            "scenarios.student.li3":
+              "书签与收藏夹帮助你整理学习资料，形成个人知识库。",
+            "scenarios.professional.title":
+              "面向职场人士：多任务、多窗口的高效工作台",
+            "scenarios.professional.body":
+              "对需要频繁切换网页、查文档、搜案例的职场人士来说，夸克浏览器简洁的标签管理与稳定的性能，能在不占用过多系统资源的前提下支撑多任务处理。",
+            "scenarios.professional.li1":
+              "通过多标签与分组管理不同项目的网页资源。",
+            "scenarios.professional.li2":
+              "借助搜索引擎与工具聚合，快速找到报告模板、行业数据与新闻资讯。",
+            "scenarios.professional.li3":
+              "隐私窗口适合登录不同账号或处理敏感工作内容。",
+            "scenarios.heavy.title": "面向重度浏览用户：更干净的上网环境",
+            "scenarios.heavy.body":
+              "如果你经常在移动端长时间浏览网页、论坛与内容平台，夸克浏览器的广告拦截与反骚扰能力，可以在不影响正常内容的前提下，尽可能屏蔽干扰元素，让页面更清爽。",
+            "scenarios.heavy.li1": "智能识别弹窗广告与遮挡页面的广告位。",
+            "scenarios.heavy.li2":
+              "支持对异常页面进行安全提醒，降低误点风险。",
+            "scenarios.heavy.li3":
+              "通过个性化设置，平衡加载速度与图文展示质量。",
+            "section.download.title": "如何获取并安装夸克浏览器？",
+            "section.download.intro":
+              "你可以根据自己的设备类型，通过应用商店或官方网站下载夸克浏览器。以下信息仅为通用说明，实际下载方式以夸克官方渠道为准。",
+            "download.mobile.title": "手机端（推荐）",
+            "download.mobile.body":
+              "在常用应用商店中搜索「夸克浏览器」，选择来自官方发布的应用进行安装。",
+            "download.mobile.li1": "支持主流安卓应用商店",
+            "download.mobile.li2": "根据提示完成安装与权限授权",
+            "download.other.title": "其他平台",
+            "download.other.body":
+              "如需了解夸克浏览器在其他平台（如桌面端）的支持情况，可前往官方产品页面查看最新说明。",
+            "download.other.note":
+              "* 本页面侧重介绍夸克浏览器的体验与特点，本身不提供安装包下载，具体产品信息以官方公布为准。",
+            "section.faq.title": "FAQ：关于夸克浏览器的常见问题",
+            "faq.intro":
+              "以下问答旨在从安装、功能使用到隐私安全等几个方面，集中解答用户在选择与使用夸克浏览器时可能遇到的典型问题。",
+            "faq.q1": "夸克浏览器主要适合哪些人群使用？",
+            "faq.a1":
+              "夸克浏览器特别适合追求干净界面与高效搜索体验的用户，例如：需要大量查资料的学生、经常在移动端处理信息的职场人士、以及偏好极简设计与高信息密度的重度互联网用户。",
+            "faq.q2": "夸克浏览器是否支持广告拦截与隐私模式？",
+            "faq.a2":
+              "夸克浏览器提供一定程度的广告拦截与隐私保护能力，包括无痕/隐私模式、部分广告过滤等功能。具体功能项与实现方式会随版本迭代更新，请以实际产品设置页面为准。",
+            "faq.q3": "夸克浏览器会收集我的个人隐私数据吗？",
+            "faq.a3":
+              "通常，现代浏览器都会在法律法规允许的范围内，根据隐私政策收集必要的数据用于改进产品体验。建议你在安装与使用夸克浏览器前，详细阅读官方隐私政策与用户协议，并在设置中根据自身需求调整隐私选项。",
+            "faq.q4": "遇到闪退、卡顿或网页无法打开时应该怎么办？",
+            "faq.a4":
+              "你可以尝试以下步骤：关闭并重新打开浏览器、清理缓存与历史记录、检查网络连接是否稳定、在应用商店更新到最新版本。如果问题仍然存在，建议通过夸克浏览器内的反馈入口或官方渠道提交问题说明。",
+            "faq.q5": "本页面是否为夸克浏览器官方页面？",
+            "faq.a5":
+              "本页面仅用于介绍夸克浏览器的典型特点与使用场景，不代表官方立场，也不提供任何非官方安装文件。若需获取权威信息，请以夸克浏览器官方产品页面和公告为准。",
+            "side.title": "页面导览",
+            "side.top": "回到顶部",
+            "side.features": "产品亮点",
+            "side.content": "核心内容区",
+            "side.download": "下载与安装",
+            "side.faq": "FAQ 常见问题",
+            "footer.line1":
+              "本页面聚焦展示夸克浏览器的产品体验与功能亮点，不属于官方站点。",
+            "footer.line2":
+              "产品名称、Logo 等相关权益归其对应权利人所有。",
+            backToTop: "返回顶部 ↑",
+          },
+          en: {
+            "nav.features": "Key Features",
+            "nav.scenarios": "Use Cases",
+            "nav.download": "Download & Install",
+            "nav.faq": "FAQ",
+            "hero.title":
+              "Quark Browser: A Minimal Browser Built for Efficient Search",
+            "hero.subtitle":
+              "Keep only what truly matters. Quark Browser combines minimal UI, fast performance and AI-powered search to deliver a clean and focused browsing experience.",
+            "hero.bullet1":
+              "Ultra-fast startup and loading for a snappier web experience",
+            "hero.bullet2":
+              "Minimal interface with high information density and fewer distractions",
+            "hero.bullet3":
+              "Multiple privacy protections and ad blocking for safer, cleaner browsing",
+            "hero.bullet4":
+              "AI-enhanced search and content aggregation to find answers faster",
+            "hero.cta.header": "Download Now",
+            "hero.cta.main": "Download Quark Browser for Free",
+            "hero.cta.secondary": "View Key Features",
+            "hero.note":
+              "* UI preview for illustration; actual product experience may differ.",
+            "logo.text": "Quark Browser",
+            "mock.tabs.search": "Quark Search",
+            "mock.tabs.ai": "AI Assistant",
+            "mock.tabs.bookmark": "Bookmarks",
+            "mock.search.placeholder": 'Try searching "plagiarism check"',
+            "mock.feature1":
+              "Understands intent and aggregates authoritative results",
+            "mock.feature2": "Ad-free reading mode for focused content",
+            "mock.feature3": "One-tap save to keep pages for study and research",
+            "section.features.title": "Why Choose Quark Browser?",
+            "section.features.intro":
+              "Quark Browser focuses on minimalism, efficiency and intelligence. It keeps the browsing experience clean while being deeply optimized for search and knowledge scenarios, making it a popular choice for students, professionals and heavy information workers.",
+            "features.card1.title": "Minimal UI, Maximum Focus",
+            "features.card1.body":
+              "Quark removes unnecessary buttons and flashy elements, leaving only essential entry points. The search bar, tabs and bookmarks are laid out clearly so you can complete tasks in the shortest possible time.",
+            "features.card2.title": "Fast Engine, Smooth Experience",
+            "features.card2.body":
+              "With a lightweight design and low-level performance optimizations, Quark Browser offers stable and smooth startup, page loading and scrolling, ideal for daily search, long-form reading and online learning.",
+            "features.card3.title": "Smart Search & AI Capabilities",
+            "features.card3.body":
+              "For academic research, information lookup and tool-based tasks, Quark provides intelligent suggestions, result aggregation and knowledge cards to help you quickly find key answers in complex information.",
+            "features.card4.title": "Privacy Protection & Ad Blocking",
+            "features.card4.body":
+              "Incognito mode, privacy features and ad blocking work together to reduce intrusive pop-ups and malicious pages, keeping your browsing environment safer and cleaner.",
+            "section.scenarios.title":
+              "Typical Scenarios: Search, Study and Efficient Browsing",
+            "section.scenarios.intro":
+              "Here we use clear headings and structured paragraphs to explain how Quark Browser adds value in real-world search, study and everyday browsing scenarios, and what makes it different.",
+            "scenarios.student.title":
+              "For Students: Research, Courses, and Focused Reading",
+            "scenarios.student.body":
+              "Students can jump to encyclopedias, papers, and question banks via the home search box. Reader mode extracts the main text and removes noise, ideal for long study sessions.",
+            "scenarios.student.li1":
+              'For complex queries like "formula derivation" or "paper sources", smart aggregation is faster.',
+            "scenarios.student.li2":
+              "Night and eye-care modes reduce strain during long reading.",
+            "scenarios.student.li3":
+              "Bookmarks help you organize study materials into a personal library.",
+            "scenarios.professional.title":
+              "For Professionals: Multi-tasking, Multi-window Workbench",
+            "scenarios.professional.body":
+              "With clean tab management and stability, Quark supports heavy multitasking without hogging resources—great for switching across cases, docs, and research.",
+            "scenarios.professional.li1":
+              "Group tabs to manage resources across different projects.",
+            "scenarios.professional.li2":
+              "Use search and tool aggregation to find templates, industry data, and news quickly.",
+            "scenarios.professional.li3":
+              "Privacy windows suit multiple accounts or sensitive tasks.",
+            "scenarios.heavy.title":
+              "For Heavy Browsers: A Cleaner, Safer Web Environment",
+            "scenarios.heavy.body":
+              "If you browse forums and content platforms for long periods, Quark’s ad blocking and anti-harassment keep pages clear without hurting normal content.",
+            "scenarios.heavy.li1":
+              "Intelligently detects pop-ups and overlay ads.",
+            "scenarios.heavy.li2":
+              "Warns on suspicious pages to reduce misclick risks.",
+            "scenarios.heavy.li3":
+              "Tune performance vs. image quality to fit your preference.",
+            "section.download.title":
+              "How to Get and Install Quark Browser?",
+            "section.download.intro":
+              "Download Quark Browser via your app store or the official site. Details may vary by platform—always follow official channels.",
+            "download.mobile.title": "Mobile (Recommended)",
+            "download.mobile.body":
+              'Search “Quark Browser” in major app stores and install the official release.',
+            "download.mobile.li1": "Available in mainstream Android app stores",
+            "download.mobile.li2": "Follow prompts to install and grant permissions",
+            "download.other.title": "Other Platforms",
+            "download.other.body":
+              "For desktop or other platforms, check the official product page for the latest availability.",
+            "download.other.note":
+              "* This page focuses on explaining the Quark Browser experience and does not distribute installers. Always download from official channels.",
+            "section.faq.title":
+              "FAQ: Frequently Asked Questions About Quark Browser",
+            "faq.intro":
+              "These Q&As address installation, features, and privacy/safety concerns to help you decide before using Quark Browser.",
+            "faq.q1": "Who is Quark Browser best suited for?",
+            "faq.a1":
+              "It suits users who want a clean UI and efficient search: students needing research, professionals handling info on mobile, and heavy users who prefer high information density.",
+            "faq.q2": "Does Quark Browser support ad blocking and privacy modes?",
+            "faq.a2":
+              "Quark offers some ad blocking and privacy protections, including incognito/privacy mode and partial ad filters. Exact features may change by version—see in-product settings.",
+            "faq.q3": "Does Quark Browser collect my personal data?",
+            "faq.a3":
+              "Like modern browsers, it may collect necessary data under applicable laws per its privacy policy. Review the official policy and adjust privacy options to your preference.",
+            "faq.q4": "What if the browser crashes, lags, or pages won’t load?",
+            "faq.a4":
+              "Try restarting the browser, clearing cache/history, checking your network, and updating to the latest version. If issues persist, submit feedback via the in-app channel.",
+            "faq.q5": "Is this an official Quark Browser page?",
+            "faq.a5":
+              "This page introduces typical Quark Browser features and use cases. It is not an official site and does not provide unofficial installers. Refer to the official product page for authoritative information.",
+            "side.title": "Page Guide",
+            "side.top": "Back to Top",
+            "side.features": "Key Features",
+            "side.content": "Main Content",
+            "side.download": "Download & Install",
+            "side.faq": "FAQ",
+            "footer.line1":
+              "This page focuses on showcasing the Quark Browser experience and is not an official site.",
+            "footer.line2":
+              "Product names and logos belong to their respective owners.",
+            backToTop: "Back to Top ↑",
+          },
+          ko: {
+            "nav.features": "핵심 기능",
+            "nav.scenarios": "사용 사례",
+            "nav.download": "다운로드 및 설치",
+            "nav.faq": "자주 묻는 질문",
+            "hero.title":
+              "콰크 브라우저: 효율적인 검색을 위한 미니멀 브라우저",
+            "hero.subtitle":
+              "불필요한 요소를 줄이고 핵심 정보에만 집중합니다. 콰크 브라우저는 미니멀한 UI, 빠른 속도, AI 검색 기능으로 깔끔하고 효율적인 웹 탐색 경험을 제공합니다.",
+            "hero.bullet1": "빠른 실행과 로딩으로 더욱 쾌적한 웹 사용",
+            "hero.bullet2": "방해 요소를 줄인 미니멀 인터페이스",
+            "hero.bullet3": "여러 단계의 개인정보 보호와 광고 차단",
+            "hero.bullet4": "AI 기반 검색과 콘텐츠 추천으로 더 빠른 답변",
+            "hero.cta.header": "지금 다운로드",
+            "hero.cta.main": "콰크 브라우저 무료 다운로드",
+            "hero.cta.secondary": "핵심 기능 살펴보기",
+            "hero.note":
+              "* 화면은 콰크 브라우저 핵심 경험을 설명하기 위한 예시이며, 실제 제품과 다를 수 있습니다.",
+            "logo.text": "콰크 브라우저",
+            "mock.tabs.search": "콰크 검색",
+            "mock.tabs.ai": "AI 도우미",
+            "mock.tabs.bookmark": "북마크",
+            "mock.search.placeholder": '"논문 표절 검사"를 검색해 보세요',
+            "mock.feature1": "검색 의도를 파악해 신뢰도 높은 결과를 모아 제공합니다",
+            "mock.feature2": "광고를 줄인 읽기 모드로 본문에만 집중할 수 있습니다",
+            "mock.feature3": "원하는 페이지를 한 번에 저장해 공부·정리에 활용할 수 있습니다",
+            "section.features.title": "왜 콰크 브라우저인가요?",
+            "section.features.intro":
+              "콰크 브라우저는 ‘미니멀·효율·지능형’을 핵심 가치로, 깔끔한 화면을 유지하면서도 검색과 지식 탐색에 최적화되어 있습니다. 학생, 직장인, 정보 노동자들에게 주력 브라우저로 많이 선택되고 있습니다.",
+            "features.card1.title": "미니멀 UI, 콘텐츠에 집중",
+            "features.card1.body":
+              "콰크는 복잡한 버튼과 화려한 요소를 줄이고, 꼭 필요한 기능만 남겼습니다. 검색창, 탭, 북마크 등이 직관적으로 배치되어 최소한의 동선으로 작업을 마칠 수 있습니다.",
+            "features.card2.title": "가벼운 엔진, 부드러운 경험",
+            "features.card2.body":
+              "경량화 설계와 하단 성능 최적화를 통해 실행 속도, 페이지 로딩, 스크롤 등에서 안정적이고 부드러운 경험을 제공합니다. 일상적인 검색과 장시간 학습에 적합합니다.",
+            "features.card3.title": "스마트 검색과 AI 기능",
+            "features.card3.body":
+              "학술 자료 검색, 정보 탐색, 도구형 서비스 등 다양한 사용 사례에서, 지능형 추천과 결과 모음, 지식 카드 기능을 제공해 복잡한 정보 속에서도 핵심 답을 빠르게 찾도록 도와줍니다.",
+            "features.card4.title": "개인정보 보호와 광고 차단",
+            "features.card4.body":
+              "시크릿 모드, 추적 방지, 광고 차단 기능을 통해 과도한 팝업과 악성 페이지를 줄여주어 보다 안전하고 쾌적한 브라우징 환경을 제공합니다.",
+            "section.scenarios.title":
+              "대표적인 사용 사례: 검색, 학습, 효율적인 브라우징",
+            "section.scenarios.intro":
+              "이 섹션에서는 콰크 브라우저가 검색, 학습, 일상적인 웹 사용 등 다양한 상황에서 어떤 가치를 주는지, 그리고 다른 브라우저와 어떤 차별점을 가지는지 구조적으로 설명합니다.",
+            "scenarios.student.title": "학생용: 자료 검색·강의 학습·집중 독서",
+            "scenarios.student.body":
+              "학생은 홈 화면 검색창을 통해 백과, 논문, 문제은행 등 학습에 필요한 자료를 빠르게 찾을 수 있습니다. 읽기 모드는 본문만 깔끔하게 추출해 장시간 교재·강의 노트를 볼 때 유용합니다.",
+            "scenarios.student.li1":
+              '"공식 유도", "논문 자료"처럼 복잡한 검색어도 결과를 똑똑하게 모아 보여 줍니다.',
+            "scenarios.student.li2":
+              "야간 모드·눈 보호 모드로 장시간 학습 시 눈의 피로를 줄여 줍니다.",
+            "scenarios.student.li3":
+              "북마크와 즐겨찾기로 학습 자료를 정리해 나만의 지식 저장소를 만들 수 있습니다.",
+            "scenarios.professional.title":
+              "직장인용: 멀티태스킹·멀티탭 효율 작업 환경",
+            "scenarios.professional.body":
+              "잦은 탭 전환과 문서·사례 검색이 필요한 직장인에게, 콰크 브라우저는 가벼운 자원 사용과 안정적인 성능으로 여러 업무를 동시에 처리할 수 있게 도와줍니다.",
+            "scenarios.professional.li1":
+              "프로젝트별 탭 그룹으로 다양한 웹 리소스를 체계적으로 관리할 수 있습니다.",
+            "scenarios.professional.li2":
+              "검색·도구 모음을 활용해 보고서 템플릿, 업계 데이터, 뉴스 정보를 빠르게 찾을 수 있습니다.",
+            "scenarios.professional.li3":
+              "시크릿 창은 여러 계정 로그인이나 민감한 업무를 처리할 때 유용합니다.",
+            "scenarios.heavy.title":
+              "헤비 유저용: 더 깨끗하고 안전한 웹 환경",
+            "scenarios.heavy.body":
+              "모바일로 커뮤니티·콘텐츠 사이트를 오래 이용하는 유저라면, 콰크의 광고 차단과 방해 요소 제거 기능으로 본문 위주의 깔끔한 화면을 경험할 수 있습니다.",
+            "scenarios.heavy.li1":
+              "팝업 광고와 화면을 가리는 요소를 지능적으로 감지·차단하려고 시도합니다.",
+            "scenarios.heavy.li2":
+              "위험할 수 있는 페이지에 대해 경고를 띄워 오클릭(잘못된 클릭) 위험을 줄여 줍니다.",
+            "scenarios.heavy.li3":
+              "개인 설정을 통해 로딩 속도와 이미지 품질 사이의 균형을 직접 조절할 수 있습니다.",
+            "section.download.title":
+              "콰크 브라우저는 어떻게 설치하나요?",
+            "section.download.intro":
+              "사용 중인 기기에 따라 앱 마켓 또는 공식 사이트에서 콰크 브라우저를 내려받을 수 있습니다. 실제 지원 기기·설치 방식은 항상 공식 안내를 기준으로 확인해 주세요.",
+            "download.mobile.title": "모바일(추천)",
+            "download.mobile.body":
+              '주요 앱 마켓에서 "콰크 브라우저"를 검색해 공식 계정이 배포한 앱을 설치합니다.',
+            "download.mobile.li1": "대부분의 안드로이드 앱 마켓을 지원합니다.",
+            "download.mobile.li2": "설치 안내에 따라 권한을 허용하고 초기 설정을 완료합니다.",
+            "download.other.title": "기타 플랫폼",
+            "download.other.body":
+              "데스크톱 등 다른 플랫폼 지원 여부는 콰크 브라우저 공식 제품 페이지에서 최신 정보를 확인해 주세요.",
+            "download.other.note":
+              "* 이 페이지는 콰크 브라우저의 경험과 특징을 설명하는 데 초점을 두고 있으며, 설치 파일은 제공하지 않습니다. 실제 다운로드는 반드시 공식 채널을 이용해 주세요.",
+            "section.faq.title": "FAQ: 콰크 브라우저 자주 묻는 질문",
+            "faq.intro":
+              "아래 Q&A는 설치, 기능 사용, 개인정보·보안 등 콰크 브라우저 선택 시 자주 궁금해하는 내용을 한 번에 정리했습니다.",
+            "faq.q1": "콰크 브라우저는 어떤 사용자에게 적합한가요?",
+            "faq.a1":
+              "깔끔한 화면과 효율적인 검색 경험을 원하는 사용자에게 특히 잘 맞습니다. 예를 들어, 많은 자료를 찾아야 하는 학생, 모바일로 정보를 자주 처리하는 직장인, 높은 정보 밀도를 선호하는 헤비 유저 등이 있습니다.",
+            "faq.q2": "콰크 브라우저는 광고 차단과 시크릿 모드를 지원하나요?",
+            "faq.a2":
+              "콰크 브라우저는 어느 정도 광고 차단과 개인정보 보호 기능을 제공합니다. 시크릿/프라이버시 모드, 일부 광고 필터링 등을 포함하며, 구체적인 기능은 버전·설정에 따라 달라질 수 있습니다.",
+            "faq.q3": "콰크 브라우저가 내 개인정보를 수집하나요?",
+            "faq.a3":
+              "대부분의 현대 브라우저와 마찬가지로, 콰크 또한 관련 법규 범위 안에서 제품 개선에 필요한 데이터를 수집할 수 있습니다. 사용 전 반드시 공식 개인정보 처리 방침을 읽고, 설정에서 원하는 수준으로 개인정보 옵션을 조정하는 것을 권장합니다.",
+            "faq.q4": "브라우저가 갑자기 종료되거나 느려지면 어떻게 해야 하나요?",
+            "faq.a4":
+              "브라우저를 완전히 종료 후 다시 실행하고, 캐시·기록을 삭제한 뒤 네트워크 상태를 확인해 보세요. 앱 마켓에서 최신 버전으로 업데이트하는 것도 좋습니다. 문제가 계속되면 앱 내 피드백 기능이나 공식 채널로 문의해 주세요.",
+            "faq.q5": "지금 보고 있는 페이지가 콰크 브라우저 공식 사이트인가요?",
+            "faq.a5":
+              "이 페이지는 콰크 브라우저의 대표적인 특징과 사용 사례를 소개하기 위한 정보 페이지로, 공식 웹사이트는 아닙니다. 비공식 설치 파일은 제공하지 않으며, 정확한 정보와 다운로드는 반드시 콰크 브라우저 공식 페이지를 참고해 주세요.",
+            "side.title": "페이지 둘러보기",
+            "side.top": "맨 위로",
+            "side.features": "핵심 기능",
+            "side.content": "본문 영역",
+            "side.download": "다운로드 및 설치",
+            "side.faq": "자주 묻는 질문",
+            "footer.line1":
+              "본 페이지는 콰크 브라우저의 사용 경험과 기능을 소개하기 위한 정보 페이지로, 공식 사이트는 아닙니다.",
+            "footer.line2":
+              "제품명과 로고 등 관련 권리는 각 권리자에게 귀속됩니다.",
+            backToTop: "맨 위로 ↑",
+          },
+          ja: {
+            "nav.features": "主な特長",
+            "nav.scenarios": "利用シーン",
+            "nav.download": "ダウンロードとインストール",
+            "nav.faq": "FAQ",
+            "hero.title":
+              "Quarkブラウザ：効率的な検索のためのミニマルブラウザ",
+            "hero.subtitle":
+              "余計な要素をそぎ落とし、本当に必要な情報だけに集中します。Quarkブラウザは、ミニマルなUIと高速なエンジン、AI検索機能により、クリーンで集中できるブラウジング体験を提供します。",
+            "hero.bullet1": "高速起動とページ読み込みでストレスの少ない閲覧",
+            "hero.bullet2": "情報密度が高く、余計な装飾を排したミニマルデザイン",
+            "hero.bullet3": "プライバシー保護と広告ブロックで安全かつ快適",
+            "hero.bullet4": "AIによる検索・コンテンツ集約で欲しい情報にすばやく到達",
+            "hero.cta.header": "今すぐダウンロード",
+            "hero.cta.main": "Quarkブラウザを無料でダウンロード",
+            "hero.cta.secondary": "主な特長を見る",
+            "hero.note":
+              "* 画面はQuarkブラウザの体験を説明するためのイメージであり、実際の製品とは異なる場合があります。",
+            "logo.text": "Quarkブラウザ",
+            "mock.tabs.search": "Quark検索",
+            "mock.tabs.ai": "AIアシスタント",
+            "mock.tabs.bookmark": "ブックマーク",
+            "mock.search.placeholder": "「論文の盗用チェック」などを検索してみてください",
+            "mock.feature1":
+              "検索意図を理解し、信頼できる情報源をまとめて表示します",
+            "mock.feature2":
+              "広告を抑えたリーディングモードで本文に集中できます",
+            "mock.feature3":
+              "ワンタップでページを保存し、学習・調査メモとして整理できます",
+            "section.features.title": "なぜQuarkブラウザなのか？",
+            "section.features.intro":
+              "Quarkブラウザは「ミニマル・高効率・スマート」を重視し、クリーンな表示を保ちながら、検索や知識取得のシーンに最適化されています。学生やビジネスパーソン、情報を多く扱うユーザーのメインブラウザとして選ばれています。",
+            "features.card1.title": "ミニマルなUIで内容に集中",
+            "features.card1.body":
+              "Quarkは複雑なボタンや装飾を減らし、必要な機能だけをシンプルに配置しています。検索バーやタブ、ブックマークがわかりやすく整理されており、最小限の操作で目的を達成できます。",
+            "features.card2.title": "軽量エンジンでなめらかな操作感",
+            "features.card2.body":
+              "軽量設計と低レベルでの最適化により、起動・ページ読み込み・スクロールのいずれも安定してスムーズです。日常的な検索や長時間の学習にも適しています。",
+            "features.card3.title": "スマート検索とAI機能",
+            "features.card3.body":
+              "学術情報の検索や資料探し、ツール利用などのシーンで、スマートサジェストや結果の集約、ナレッジカード機能を提供し、膨大な情報の中から必要な答えに素早くたどり着けます。",
+            "features.card4.title": "プライバシー保護と広告ブロック",
+            "features.card4.body":
+              "シークレットモードやトラッキング防止、広告ブロックにより、しつこいポップアップや悪意あるページを減らし、安全で快適な閲覧環境を実現します。",
+            "section.scenarios.title":
+              "代表的な利用シーン：検索・学習・効率的な閲覧",
+            "section.scenarios.intro":
+              "このセクションでは、Quarkブラウザが検索・学習・日常的な閲覧などのシーンでどのような価値を発揮するのか、他のブラウザとの違いも含めて構造的に説明します。",
+            "scenarios.student.title":
+              "学生向け：資料検索・オンライン講義・集中読書に",
+            "scenarios.student.body":
+              "学生はトップの検索ボックスから百科事典、論文、問題集サイトなどの学習リソースにすばやくアクセスできます。リーディングモードは本文だけを抽出し、長時間の教材・講義ノートの閲覧に適しています。",
+            "scenarios.student.li1":
+              "「式の導出」「論文の参考文献」など複雑なクエリでも、関連情報を効率よく集約します。",
+            "scenarios.student.li2":
+              "ダークモードや目に優しい表示で、長時間の学習による疲れを軽減します。",
+            "scenarios.student.li3":
+              "ブックマーク機能で資料を整理し、自分だけの学習ライブラリを構築できます。",
+            "scenarios.professional.title":
+              "ビジネス向け：マルチタスク・マルチタブの作業環境",
+            "scenarios.professional.body":
+              "資料・事例・ニュースを行き来しながら仕事を進めるビジネスユーザーにとって、Quarkブラウザは軽快な動作と安定性で複数タブを同時に開いても快適に利用できます。",
+            "scenarios.professional.li1":
+              "プロジェクトごとのタブグループで、関連ページを整理して管理できます。",
+            "scenarios.professional.li2":
+              "検索・ツール集約機能により、レポートテンプレートや業界データ、最新ニュースをすばやく見つけられます。",
+            "scenarios.professional.li3":
+              "シークレットウィンドウは複数アカウント利用や機密性の高い作業に適しています。",
+            "scenarios.heavy.title":
+              "ヘビーユーザー向け：よりクリーンで安全な閲覧環境",
+            "scenarios.heavy.body":
+              "掲示板やコンテンツサイトを長時間閲覧するユーザーには、Quarkブラウザの広告ブロックと迷惑要素の抑制機能により、本文中心のすっきりした画面で利用できます。",
+            "scenarios.heavy.li1":
+              "ポップアップや画面を覆う広告を自動的に検知し、可能な範囲で非表示にします。",
+            "scenarios.heavy.li2":
+              "危険性のあるページに対して注意喚起を行い、誤タップ・誤クリックのリスクを減らします。",
+            "scenarios.heavy.li3":
+              "読み込み速度と画像品質のバランスをユーザー自身が調整できます。",
+            "section.download.title":
+              "Quarkブラウザの入手とインストール方法",
+            "section.download.intro":
+              "利用中のデバイスに応じて、アプリストアまたは公式サイトからQuarkブラウザを入手できます。実際の対応環境やインストール方法は、必ず公式の案内でご確認ください。",
+            "download.mobile.title": "モバイル（推奨）",
+            "download.mobile.body":
+              "主要なアプリストアで「Quarkブラウザ」を検索し、公式アカウントが配信しているアプリをインストールします。",
+            "download.mobile.li1":
+              "多くのAndroid向けアプリストアに対応しています。",
+            "download.mobile.li2":
+              "インストール手順に従い、必要な権限を付与して初期設定を完了します。",
+            "download.other.title": "その他のプラットフォーム",
+            "download.other.body":
+              "デスクトップ版など他プラットフォームでの提供状況は、Quarkブラウザ公式ページにて最新情報をご確認ください。",
+            "download.other.note":
+              "* 本ページはQuarkブラウザの体験や特長を説明することを目的としており、インストーラの配布は行っていません。実際のダウンロードは必ず公式チャネルをご利用ください。",
+            "section.faq.title": "FAQ：Quarkブラウザに関するよくある質問",
+            "faq.intro":
+              "ここでは、インストール方法や機能の使い方、プライバシーとセキュリティに関する代表的な疑問にまとめてお答えします。",
+            "faq.q1": "Quarkブラウザはどのようなユーザーに向いていますか？",
+            "faq.a1":
+              "シンプルな画面と効率的な検索体験を重視するユーザーに適しています。大量の資料を調べる学生や、モバイルで情報処理を行うビジネスパーソン、情報密度の高い画面を好むヘビーユーザーなどが典型例です。",
+            "faq.q2": "Quarkブラウザは広告ブロックやシークレットモードに対応していますか？",
+            "faq.a2":
+              "Quarkブラウザには、一定の広告ブロック機能やプライバシー保護機能（シークレット/プライバシーモード、一部広告フィルタなど）が搭載されています。具体的な機能内容や挙動はバージョンや設定により異なります。",
+            "faq.q3": "Quarkブラウザは私の個人情報を収集しますか？",
+            "faq.a3":
+              "一般的なブラウザと同様、Quarkブラウザも法令の範囲内で、サービス改善に必要なデータを収集する場合があります。利用前に必ず公式のプライバシーポリシーを確認し、設定画面から希望するプライバシーレベルに調整することをおすすめします。",
+            "faq.q4": "ブラウザがフリーズしたり、ページが開けなかったりする場合は？",
+            "faq.a4":
+              "いったんブラウザを完全終了して再起動し、キャッシュや閲覧履歴を削除したうえで、ネットワーク環境を確認してください。アプリストアから最新版へ更新するのも有効です。それでも解決しない場合は、アプリ内のフィードバック機能や公式窓口からお問い合わせください。",
+            "faq.q5": "このページはQuarkブラウザの公式サイトですか？",
+            "faq.a5":
+              "本ページはQuarkブラウザの特長や利用シーンを紹介する情報ページであり、公式サイトではありません。非公式のインストーラ提供は行っておらず、正確な情報やダウンロードは必ず公式の製品ページをご確認ください。",
+            "side.title": "ページ内ナビゲーション",
+            "side.top": "ページ上部へ",
+            "side.features": "主な特長",
+            "side.content": "本文エリア",
+            "side.download": "ダウンロードとインストール",
+            "side.faq": "FAQ",
+            "footer.line1":
+              "本ページはQuarkブラウザの利用体験や機能を紹介する情報ページであり、公式サイトではありません。",
+            "footer.line2":
+              "製品名およびロゴなどに関する権利は、それぞれの権利者に帰属します。",
+            backToTop: "ページ上部へ ↑",
+          },
+        };
+
+        function detectLanguage() {
+          const stored = window.localStorage.getItem("preferredLang");
+          if (stored && translations[stored]) return stored;
+
+          const navLang =
+            (navigator.language || navigator.userLanguage || "zh").toLowerCase();
+
+          if (navLang.startsWith("zh")) return "zh";
+          if (navLang.startsWith("en")) return "en";
+          if (navLang.startsWith("ko")) return "ko";
+          if (navLang.startsWith("ja")) return "ja";
+          return "en";
+        }
+
+        function applyLanguage(lang) {
+          const langCode = LANG_MAP[lang] || "en";
+          document.documentElement.setAttribute("lang", langCode);
+
+          const dict = translations[lang] || translations.en;
+          document
+            .querySelectorAll("[data-i18n]")
+            .forEach((el) => {
+              const key = el.getAttribute("data-i18n");
+              if (key && dict[key]) {
+                el.textContent = dict[key];
+              }
+            });
+
+          const select = document.getElementById("langSelect");
+          if (select && select.value !== lang) {
+            select.value = lang;
+          }
+
+          try {
+            window.localStorage.setItem("preferredLang", lang);
+          } catch (e) {
+            // 忽略隐私模式等场景下的存储错误
+          }
+        }
+
+        window.addEventListener("DOMContentLoaded", function () {
+          const lang = detectLanguage();
+          applyLanguage(lang);
+
+          const select = document.getElementById("langSelect");
+          if (select) {
+            select.addEventListener("change", function () {
+              const value = this.value;
+              if (translations[value]) {
+                applyLanguage(value);
+              }
+            });
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
+
+
